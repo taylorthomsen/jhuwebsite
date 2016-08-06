@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title%}Results{% endblock %}
+
+{% block content%}
+<div class='container'>
+	<h1>Results</h1>
+	<hr />
+
+	<p><b>The scatter plots below compare the different gun ownership and homocide variables measured in the <a href="https://docs.google.com/spreadsheets/d/1chqUZHuY6cXYrRYkuE0uwXisGaYvr7durZHJhpLGycs/edit#gid=0">Small Arms Survey</a>.
+	</b></p>
+
+	<center>
+		<img src='https://s20.postimg.org/xwkznwrt9/Homicide_and_Gun_Ownership_Graph.png' border='0' alt='Homicide and Gun Ownership Graph'/>
+		<br />
+		<br />
+	</center>
+	
+	<p><b>From the <a href="https://www.quandl.com/data/GALLUP/GUNS1-United-States-Household-Gun-Ownership">United States Household Gun Ownership</a> dataset, we can see the yearly trend in the number of American households that contain a gun. 
+	</b></p>
+	
+	<br />
+
+	<center>
+		<img src='https://s20.postimg.org/4241lw1cd/United_States_Household_Firearms_Graph.png' border='0' width='700' height='500' alt='United States Household Firearms Graph'/><br /><br />
+	</center>
+	
+</div>
+{% endblock %}
