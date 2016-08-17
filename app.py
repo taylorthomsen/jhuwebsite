@@ -12,6 +12,10 @@ def home():
 def about():
 	return render_template('aboutme.html')
 
+@app.route('/technicaldescription')
+def description():
+	return render_template('technicaldescription.html')
+
 @app.route('/results')
 def results():
 	return render_template('results.html')
