@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'ramland';
+
+  src: url('../fonts/RamlandClean.ttf');
+  src: url('../fonts/RamlandClean.otf') format('opentype'), url('../fonts/RamlandClean.ttf') format('truetype');
+}
+
+.cursiveMain {
+    font-family: ramland;
+    font-size: 32px;
+}
+
+h1 {
+    font-family: ramland;
+    font-size: 32px;
+}
+
+.cursiveSecondary {
+    font-family: ramland;
+    font-size: 24px;
+}

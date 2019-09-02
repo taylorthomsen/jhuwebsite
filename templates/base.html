@@ -4,24 +4,27 @@
 	<title>{% block title %}{% endblock %}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href = "static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href = "static/css/ramland-font.css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<div class="navbar navebar-fixed-top">
 		<div class="container">
-			<div class = "navbar-header">
-				<a href="/" class="navbar-brand">Gun Ownership and Homicide Rates</a>
-			</div>
-			<div class="navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/researchquestion">Research Question</a></li>
-					<li><a href="/technicaldescription">Technical Description</a></li>
-					<li><a href="/methodology">Resources</a></li>
-					<li><a href="/results">Results</a></li>
-					<li><a href="/aboutme">About the Author</a></li>
-				</ul>
+			<div class="navbar-header">
+                <center>
+                <div class="cursiveMain">Taylor Thomsen</div>
+                </center>
 			</div>
 		</div>
-	</div>	
+        <div class="container">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/aboutme">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+	</div>
 
 	{% block content %}
 	{% endblock %}

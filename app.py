@@ -12,21 +12,13 @@ def home():
 def about():
 	return render_template('aboutme.html')
 
-@app.route('/technicaldescription')
+@app.route('/contact')
 def description():
-	return render_template('technicaldescription.html')
+	return render_template('contact.html')
 
-@app.route('/results')
+@app.route('/resume')
 def results():
-	return render_template('results.html')
-
-@app.route('/methodology')
-def methodology():
-	return render_template('methodology.html')
-
-@app.route('/researchquestion')
-def researchquestion():
-	return render_template('researchquestion.html')
+	return render_template('resume.html')
 
 if __name__ == '__main__':
 	app.run(debug=True)
